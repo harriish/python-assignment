@@ -41,6 +41,8 @@ __docker build -t my-app-image .__
 __docker run -it --rm -p 8000:80 my-app-image__
 
  -p flag is to map the port 80 (tcp) on the container to the localhost port 8000.
+ 
+ After this open a new terminal tab to execute curl or http commands for the expected outcomes.
 
 __Expected outcomes__
 
